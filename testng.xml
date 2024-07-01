@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="BazaarTest">
+  <!-- Define a test -->
+  <test name="UsersTest">
+    <!-- Define classes to be included in this test -->
+    <classes>
+      <class name="io.bazaar.test.UsersTest"/>
+    </classes>
+  </test>
+</suite>
