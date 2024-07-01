@@ -31,6 +31,7 @@ public class OrganizationTest extends AbstractTest
     @Override
     @Before
     public void setUp() {
+
         driver = new ChromeDriver();
         js = (JavascriptExecutor) driver;
         vars = new HashMap<String, Object>();
