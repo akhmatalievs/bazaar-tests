@@ -15,34 +15,34 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
-
-
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-
-public class OrganizationTest extends AbstractTest
+public class OrganizationTest
 {
     private WebDriver driver;
     private Map<String, Object> vars;
     JavascriptExecutor js;
 
-    @Override
+
     @Before
     public void setUp() {
 
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+         driver = new ChromeDriver(options);
         js = (JavascriptExecutor) driver;
         vars = new HashMap<String, Object>();
     }
-    @Override
+
     @After
     public void tearDown() {
         driver.quit();
     }
 
-    @Override
+
     @Test
     public void run() {
 

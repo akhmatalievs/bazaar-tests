@@ -14,6 +14,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 
 
@@ -21,7 +22,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 
-public class PeerListTest extends AbstractTest
+public class PeerListTest
 {
 
     private WebDriver driver;
@@ -33,7 +34,10 @@ public class PeerListTest extends AbstractTest
     public void setUp()
     {
         // Initialize the WebDriver
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+        driver = new ChromeDriver(options);
+
         js = ( JavascriptExecutor ) driver;
         vars = new HashMap<>();
     }

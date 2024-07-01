@@ -15,13 +15,14 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 
-public class ProductsTest extends AbstractTest
+public class ProductsTest
 {
     private WebDriver driver;
     private Map<String, Object> vars;
@@ -30,7 +31,10 @@ public class ProductsTest extends AbstractTest
 
     @Before
     public void setUp() {
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+        driver = new ChromeDriver(options);
+
         js = (JavascriptExecutor) driver;
         vars = new HashMap<String, Object>();
     }

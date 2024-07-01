@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-import io.netty.util.internal.StringUtil;
 
 
 public class Utils
@@ -15,7 +14,7 @@ public class Utils
     private  static String password;
 
     public static String getEmail(){
-        if( StringUtil.isNullOrEmpty( email ) ){
+        if( email == null || email.isEmpty() ){
             readConfig();
         }
 
@@ -23,7 +22,7 @@ public class Utils
     }
 
     public static String getPassword(){
-        if( StringUtil.isNullOrEmpty( password ) ){
+        if(  password == null || password.isEmpty()){
             readConfig();
         }
 

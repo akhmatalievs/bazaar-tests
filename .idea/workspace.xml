@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cede298d-b59d-424b-bc8a-29bb7501abcc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/bazaar/test/AbstractTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/bazaar/test/OrganizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/bazaar/test/OrganizationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/bazaar/test/PeerListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/bazaar/test/PeerListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/bazaar/test/ProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/bazaar/test/ProductsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/bazaar/test/UserProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/bazaar/test/UserProfileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/bazaar/test/UsersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/bazaar/test/UsersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/bazaar/test/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/bazaar/test/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,35 +35,23 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
   <component name="ProjectId" id="2VzjRh4hOp2mqcyIrCjOhjeJSDh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Volumes/data/macpro/source/bazaar-tests/src/test/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java" />
@@ -66,10 +62,23 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Volumes/data/macpro/source/bazaar-tests/testng.xml">
+  <component name="RunManager" selected="JUnit.OrganizationTest">
     <configuration name="io.subutai.bazaar.test.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.subutai.bazaar.test.Run" />
       <module name="bazaar-tests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,10 +92,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserProfileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrganizationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bazaar-tests" />
-      <option name="PACKAGE_NAME" value="io.subutai.bazaar.test" />
-      <option name="MAIN_CLASS_NAME" value="io.subutai.bazaar.test.UserProfileTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.bazaar.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.bazaar.test" />
+      <option name="MAIN_CLASS_NAME" value="io.bazaar.test.OrganizationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrganizationTest" />
         <item itemvalue="TestNG./Volumes/data/macpro/source/bazaar-tests/testng.xml" />
         <item itemvalue="Application.io.subutai.bazaar.test.Run" />
         <item itemvalue="JUnit.BlueprintEnvTest" />
         <item itemvalue="JUnit.UsersTest" />
-        <item itemvalue="JUnit.UserProfileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +155,8 @@
       <workItem from="1718338618597" duration="835000" />
       <workItem from="1719635979331" duration="5790000" />
       <workItem from="1719722451976" duration="5385000" />
+      <workItem from="1719843002928" duration="798000" />
+      <workItem from="1719843808069" duration="1562000" />
     </task>
     <servers />
   </component>
@@ -159,5 +176,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

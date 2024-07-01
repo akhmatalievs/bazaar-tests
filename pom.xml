@@ -69,14 +69,22 @@
 <!--    </dependency>-->
 
 
+<!--    &lt;!&ndash; https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java &ndash;&gt;-->
+<!--    <dependency>-->
+<!--      <groupId>org.seleniumhq.selenium</groupId>-->
+<!--      <artifactId>selenium-java</artifactId>-->
+<!--      <version>4.12.1</version>-->
+<!--    </dependency>-->
+
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
-      <version>4.12.1</version>
+      <version>4.22.0</version>
     </dependency>
 
-<!--    &lt;!&ndash; https://mvnrepository.com/artifact/dev.mccue/guava-collect &ndash;&gt;-->
+
+    <!--    &lt;!&ndash; https://mvnrepository.com/artifact/dev.mccue/guava-collect &ndash;&gt;-->
 <!--    <dependency>-->
 <!--      <groupId>dev.mccue</groupId>-->
 <!--      <artifactId>guava-collect</artifactId>-->
